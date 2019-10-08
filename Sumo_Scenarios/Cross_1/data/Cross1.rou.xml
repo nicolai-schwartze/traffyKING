@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow" type="car" beg="N" end="1000" number="1000" from="NS1" to="NS2"/>
+	
+	<vType id="car2" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow2" type="car" beg="S" end="1000" number="1000" from="SN1" to="SN2"/>
+	
+	<vType id="car3" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow3" type="car" beg="W" end="1000" number="1000" from="WO1" to="WO2"/>
+	
+	<vType id="car4" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow4" type="car" beg="O" end="1000" number="1000" from="OW1" to="OW2"/>
+</routes>

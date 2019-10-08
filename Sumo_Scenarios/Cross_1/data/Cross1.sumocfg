@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+       <net-file value="Cross1.net.xml"/>
+       <route-files value="Cross1.rou.xml"/>
+    </input>
+</configuration>
