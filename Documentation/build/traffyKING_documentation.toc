@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Task Description}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Experiment Setup}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Simulation Scenarios}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Algorithms}{2}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Self Constructed Solution}{2}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}NSGA-II}{2}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Conjugate Gradient Descent}{2}{subsection.2.2.3}
+\contentsline {chapter}{Appendices}{3}{section*.3}
+\contentsline {chapter}{\numberline {A}Task Description $\left ( german \right ) $}{4}{appendix.A}

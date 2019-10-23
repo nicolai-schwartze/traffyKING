@@ -1,0 +1,42 @@
+\documentclass[./\jobname.tex]{subfiles}
+\begin{document}
+
+\chapter{Task Description}
+
+This project is about simulating and optimising a circulative traffic light control. The simulation is done with  \href{https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/}{SUMO} which stands for Simulation of Urban MObility. SUMO provides an API that allows external programs to cast and controll a simulation. These control structures, simulation evaluation as well as the optimisation algorithms are programmed in Python 3.7. \\~\\
+The project includes the following tasks: 
+\begin{itemize}
+	\item create infrastructure to call simulation and alter simulation parametes in SUMO
+	\item construct three different traffic load scenarios
+	\item three different optimisation algorithms
+	\begin{itemize}
+		\item NSGA2
+		\item Conjugate Gradinet Descent
+		\item self constructed solution
+	\end{itemize}
+	\item description and evaluation of the results
+	\item precise technical report to ensure repeatability \\~\\
+\end{itemize}
+
+The simulation returns three parameters: 
+\begin{itemize}
+	\item overall waitingtime calculated as the sum of the waiting time of all cars
+	\item overall number of stops calculated as the sum of the stops by all cars
+	\item fairness in waitingtime calculated as the variance of the waitingtimes \\
+\end{itemize}
+We are looking for a solution that minimises all of these parameters. \\
+All of the considered traffic load scenarios are stable. This means, that the waiting line does not grow arbitrarily larg. 
+
+\chapter{Experiment Setup}
+
+\section{Simulation Scenarios}
+
+\section{Algorithms}
+
+\subsection{Self Constructed Solution}
+
+\subsection{NSGA-II}
+
+\subsection{Conjugate Gradient Descent}
+
+\end{document}

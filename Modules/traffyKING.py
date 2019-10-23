@@ -7,7 +7,9 @@ Created on Tue Oct  8 20:52:27 2019
 
 from bs4 import BeautifulSoup
 import numpy as np
-
+from sumolib import checkBinary  
+import traci  
+import sys
 
 def evaluate_Simulation_Multicriteria(tripinfoFile):
     ''' 
@@ -46,7 +48,7 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
 
 
 
-def evaluate_Simulation_Singlecriteria(tripinfoFile):
+def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, weightF=5):
     ''' 
     
     input  : tripinfo file as created by a sumo simulation 
@@ -76,9 +78,55 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile):
     waitingtime = np.mean(waitingtimeList)
     fairness = np.var(waitingtimeList)
     
-    return (waitingtime + stopCount + fairness)/3
+    return (waitingtime*weightWT + stopCount*weightSC + fairness*weightF)/3
+
+
+
+def start_Simulation():
+    sumoBinary = checkBinary('sumo')
+    
+    traci.start([sumoBinary, "-c", "data/cross.sumocfg",
+                             "--tripinfo-output", "tripinfo.xml"])
+    
+    
+# Edit this from tutorial
+# need to call simulation from string
+def run():
+    """execute the TraCI control loop"""
+    step = 0
+    # we start with phase 2 where EW has green
+    traci.trafficlight.setPhase("0", 2)
+    while traci.simulation.getMinExpectedNumber() > 0:
+        traci.simulationStep()
+        if traci.trafficlight.getPhase("0") == 2:
+            # we are not already switching
+            if traci.inductionloop.getLastStepVehicleNumber("0") > 0:
+                # there is a vehicle from the north, switch
+                traci.trafficlight.setPhase("0", 3)
+            else:
+                # otherwise try to keep green for EW
+                traci.trafficlight.setPhase("0", 2)
+        step += 1
+    traci.close()
+    sys.stdout.flush()
 
 
 
 if __name__ == "__main__": 
-    print(evaluate_Simulation_Multicriteria("test.xml"))
+    wT_List = [0, 2, 1, 4, 0, 2, 4, 4] 
+    sC_List = [0, 1, 1, 2, 0, 2, 2, 3]
+    print("start test")
+    print(50*"=")
+    wT, sC, F = evaluate_Simulation_Multicriteria("test_Tripinfo.xml")
+    print("waitingtime = " + str(wT))
+    print("number of stops = " + str(sC))
+    print("fairness = " + str(F))
+    assert (np.mean(wT_List) == wT) 
+    assert (np.var(wT_List) == F)
+    assert (np.sum(sC_List) == sC)
+    result = evaluate_Simulation_Singlecriteria("test_Tripinfo.xml")
+    print("weighted result = " + str(result))
+    assert (result == (np.mean(wT_List)*5 + np.var(wT_List)*5 + np.sum(sC_List))/3)
+    print("test passed")
+    
+    
