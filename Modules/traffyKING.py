@@ -16,7 +16,10 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
     
     input  : tripinfo file as created by a sumo simulation 
     
-    output : a tuple of the three separate optimisation criterias
+    output : a list of the three separate optimisation criterias
+             the parameters are normalised by the routlenght of each car
+             this is necessary since a longer route causes more stops and
+             thus a longer waiting time
     
                 waitingtime: mean over all times all cars have waited
                 stopCount  : number of stops all cars had to perform
@@ -38,13 +41,15 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
     stopCount = 0
     
     for info in infos:
-        waitingtimeList.append(float(info["waitingtime"]))
-        stopCount = stopCount + int(info["waitingcount"])
+        routLength = float(info["routeLength"])
+        waitingtimeList.append(float(info["waitingtime"])/routLength)
+        stopCount = stopCount + int(info["waitingcount"])/routLength
+        
     
     waitingtime = np.mean(waitingtimeList)
     fairness = np.var(waitingtimeList)
     
-    return (waitingtime, stopCount, fairness)
+    return list([waitingtime, stopCount, fairness])
 
 
 
@@ -55,6 +60,9 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, wei
     
     output : a weighted sum of the criteria waitingtime, stopcount and fairness
              calculated by (waitingtime + stopcount + fairness)/3
+             the parameters are normalised by the routlenght of each car
+             this is necessary since a longer route causes more stops and
+             thus a longer waiting time
         
     '''
     
@@ -72,8 +80,9 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, wei
     stopCount = 0
     
     for info in infos:
-        waitingtimeList.append(float(info["waitingtime"]))
-        stopCount = stopCount + int(info["waitingcount"])
+        routLength = float(info["routeLength"])
+        waitingtimeList.append(float(info["waitingtime"])/routLength)
+        stopCount = stopCount + int(info["waitingcount"])/routLength
     
     waitingtime = np.mean(waitingtimeList)
     fairness = np.var(waitingtimeList)
@@ -113,10 +122,12 @@ def run():
 
 
 if __name__ == "__main__": 
-    wT_List = [0, 2, 1, 4, 0, 2, 4, 4] 
-    sC_List = [0, 1, 1, 2, 0, 2, 2, 3]
+    
     print("start test")
     print(50*"=")
+    
+    wT_List = [0, 2, 1, 4, 0, 2, 4, 4] 
+    sC_List = [0, 1, 1, 2, 0, 2, 2, 3]
     wT, sC, F = evaluate_Simulation_Multicriteria("test_Tripinfo.xml")
     print("waitingtime = " + str(wT))
     print("number of stops = " + str(sC))

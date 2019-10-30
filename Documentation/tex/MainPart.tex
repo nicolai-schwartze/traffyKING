@@ -8,14 +8,20 @@ The project includes the following tasks:
 \begin{itemize}
 	\item create infrastructure to call simulation and alter simulation parametes in SUMO
 	\item construct three different traffic load scenarios
-	\item three different optimisation algorithms
+	\begin{itemize}
+		\item Manhatten Grid: 1x1, 1x3, 3x3
+		\item traffic load: night, noon, rush-hour
+	\end{itemize}
+	\item five different optimisation algorithms
 	\begin{itemize}
 		\item NSGA2
 		\item Conjugate Gradinet Descent
+		\item Differential Evolution
+		\item self created heuristic using Hill-Climbing
 		\item self constructed solution
 	\end{itemize}
 	\item description and evaluation of the results
-	\item precise technical report to ensure repeatability \\~\\
+	\item precise technical report to ensure repeatability 
 \end{itemize}
 
 The simulation returns three parameters: 
@@ -27,16 +33,22 @@ The simulation returns three parameters:
 We are looking for a solution that minimises all of these parameters. \\
 All of the considered traffic load scenarios are stable. This means, that the waiting line does not grow arbitrarily larg. 
 
-\chapter{Experiment Setup}
+\newpage
+\textbf{\underline{Problem:}} Since the cars can take a turn at every intersection, it might be possible that car gets trapped in the grid for a longer period. This aritficially increases the number of stopcounts and the waitingtime. The optimiser can not improve this situation because the traffic light has no impact on this issue. To prevent that this effect weakens the found solutions, the function evaluation must be adapted. This is done by normalising the waiting time as well as the stopcount with the length of the trip by that specific car. However this also implies, that the grid is equally spaced. 
 
-\section{Simulation Scenarios}
+\chapter{Simulation Infrastructur}
+sumo environment, simulation runner, simulation parameter, reroute, tripinfofile and simulation result
 
-\section{Algorithms}
+\chapter{Algorithms}
+pseudocode, implementation, characteristics, parameters, original papers reference
 
-\subsection{Self Constructed Solution}
+\chapter{Scenarios}
+sumo cross, reroute probability (Abbiegewahrscheinlichekit), LP, qin max
 
-\subsection{NSGA-II}
+\chapter{Experiments}
 
-\subsection{Conjugate Gradient Descent}
+\section{Results}
+
+\chapter{Conclustion}
 
 \end{document}
