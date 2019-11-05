@@ -37,7 +37,7 @@ def fast_non_dominated_sort(population):
             else:
                 # domination equation
                 # (x1 <= x2 and y1 <= y2) and (x1 < x2 or y1 < y2)
-                # (somListSmallerOrEqual) and (domListSmaller)
+                # (domListSmallerOrEqual) and (domListSmaller)
                 domListSmallerOrEqual = list()
                 domListSmaller = list()
                 for k in range(solutionDim):
@@ -177,7 +177,7 @@ def tournamentSelection(Pt):
     return M
 
 
-def NSGA2 (population, function, maxGeneration):
+def NSGA2 (population, function, maxGeneration=1000000):
     Pt = copy.deepcopy(population)   
     parentPopulationSize = len(Pt)
     generationCounter = 0
@@ -308,7 +308,7 @@ if __name__ == "__main__":
     p1, p2 = tournamentSelection(Pt)
     
     testPopulation = populationInitialisation(multiSphere, 100, [-10, -10], [10, 10])
-    OP = NSGA2(testPopulation, multiSphere, 1000)
+    OP = NSGA2(testPopulation, multiSphere, maxGeneration=1000)
     for i in range(len(OP)):
         if OP[i].rank == 0:
             plt.plot(OP[i].fList[0], \
