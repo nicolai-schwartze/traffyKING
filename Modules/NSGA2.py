@@ -216,7 +216,6 @@ def NSGA2 (population, function, maxGeneration=1000000):
         Pt = crowding_distance_sorting(Rt, parentPopulationSize)
 
         generationCounter = generationCounter + 1
-        print(generationCounter)
 
     return Pt
 

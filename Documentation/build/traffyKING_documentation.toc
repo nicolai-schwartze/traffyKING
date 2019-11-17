@@ -1,13 +1,19 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
+\contentsline {chapter}{List of Algorithms}{II}{section*.2}
 \contentsline {chapter}{\numberline {1}Task Description}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Simulation Infrastructur}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Algorithms}{4}{chapter.3}
-\contentsline {chapter}{\numberline {4}Scenarios}{5}{chapter.4}
-\contentsline {chapter}{\numberline {5}Experiments}{6}{chapter.5}
-\contentsline {section}{\numberline {5.1}Results}{6}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclustion}{7}{chapter.6}
-\contentsline {chapter}{Appendices}{8}{section*.3}
-\contentsline {chapter}{\numberline {A}Task Description $\left ( german \right ) $}{9}{appendix.A}
-\contentsline {chapter}{\numberline {B}NSGA II Description}{12}{appendix.B}
+\contentsline {chapter}{\numberline {2}Simulation Infrastructur}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Algorithms}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Differential Evolution}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Nondominated Sorting Genetic Algorithm II}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}Conjugate Gradient Descent}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Hill Climbing}{5}{section.3.4}
+\contentsline {chapter}{\numberline {4}Scenarios}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Experiments}{8}{chapter.5}
+\contentsline {section}{\numberline {5.1}Results}{8}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{9}{chapter.6}
+\contentsline {chapter}{\nonumberline Bibliography}{10}{chapter*.6}
+\contentsline {chapter}{Appendices}{11}{section*.8}
+\contentsline {chapter}{\numberline {A}Task Description $\left ( german \right ) $}{12}{appendix.A}
+\contentsline {chapter}{\numberline {B}NSGA II Description}{15}{appendix.B}
