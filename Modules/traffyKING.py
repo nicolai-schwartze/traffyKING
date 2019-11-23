@@ -7,13 +7,11 @@ Created on Tue Oct  8 20:52:27 2019
 
 from bs4 import BeautifulSoup
 import numpy as np
-from sumolib import checkBinary  
 import traci  
 import sys
 
 def evaluate_Simulation_Multicriteria(tripinfoFile):
     ''' 
-    
     input  : tripinfo file as created by a sumo simulation 
     
     output : a list of the three separate optimisation criterias
@@ -24,7 +22,6 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
                 waitingtime: mean over all times all cars have waited
                 stopCount  : number of stops all cars had to perform
                 fairness   : variance of the waitingtime 
-        
     '''
     
 
@@ -41,7 +38,7 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
     stopCount = 0
     
     for info in infos:
-        routLength = float(info["routeLength"])
+        routLength = float(info["routelength"])
         waitingtimeList.append(float(info["waitingtime"])/routLength)
         stopCount = stopCount + int(info["waitingcount"])/routLength
         
@@ -55,7 +52,6 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
 
 def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, weightF=5):
     ''' 
-    
     input  : tripinfo file as created by a sumo simulation 
     
     output : a weighted sum of the criteria waitingtime, stopcount and fairness
@@ -63,7 +59,6 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, wei
              the parameters are normalised by the routlenght of each car
              this is necessary since a longer route causes more stops and
              thus a longer waiting time
-        
     '''
     
 
@@ -80,24 +75,26 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, wei
     stopCount = 0
     
     for info in infos:
-        routLength = float(info["routeLength"])
+        routLength = float(info["routelength"])
         waitingtimeList.append(float(info["waitingtime"])/routLength)
         stopCount = stopCount + int(info["waitingcount"])/routLength
     
     waitingtime = np.mean(waitingtimeList)
     fairness = np.var(waitingtimeList)
     
-    return (waitingtime*weightWT + stopCount*weightSC + fairness*weightF)/3
+    return list([(waitingtime*weightWT + stopCount*weightSC + fairness*weightF)/3])
 
 
-
-def start_Simulation():
-    sumoBinary = checkBinary('sumo')
+def simulation_Runner(simulationSteps):
+    n = 0
+    while(n < simulationSteps):
+        traci.simulationStep()
+        n = n + 1
     
-    traci.start([sumoBinary, "-c", "data/cross.sumocfg",
-                             "--tripinfo-output", "tripinfo.xml"])
-
-
+    traci.close()
+    sys.stdout.flush()
+    
+    
 
 if __name__ == "__main__": 
     

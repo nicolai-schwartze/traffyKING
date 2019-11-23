@@ -181,6 +181,7 @@ def NSGA2 (population, function, maxGeneration=1000000):
     Pt = copy.deepcopy(population)   
     parentPopulationSize = len(Pt)
     generationCounter = 0
+    fDynamic = []
     
     while generationCounter < maxGeneration:
         # create offspring
@@ -214,10 +215,12 @@ def NSGA2 (population, function, maxGeneration=1000000):
         
         # generate new parent population ranked by crowding distance
         Pt = crowding_distance_sorting(Rt, parentPopulationSize)
-
+        for p in Pt:
+            fDynamic.append(p.fList)
+            
         generationCounter = generationCounter + 1
 
-    return Pt
+    return Pt, fDynamic
 
 
 def populationInitialisation(function, populationSize, lowerBound, upperBound):

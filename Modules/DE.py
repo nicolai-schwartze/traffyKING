@@ -36,6 +36,7 @@ def DifferentialEvolution(population, function, maxFunctionEval=10000, F=0.5, CR
     populationByIndex = list(range(0, populationSize))
     functionValue = np.asarray([function(candidate) for candidate in population])
     functionEvalCounter = populationSize
+    fDynamic = []
     bestCandidateIndex = np.argmin(functionValue)
 
     while(functionEvalCounter < maxFunctionEval):
@@ -48,8 +49,9 @@ def DifferentialEvolution(population, function, maxFunctionEval=10000, F=0.5, CR
                 population[i] = ui
                 functionValue[i] = tempFuncValue
         bestCandidateIndex=np.argmin(functionValue)
+        fDynamic.append(functionValue[bestCandidateIndex])
 
-    return population[bestCandidateIndex]
+    return population[bestCandidateIndex], fDynamic
 
 
 if __name__ == "__main__":
@@ -61,6 +63,7 @@ if __name__ == "__main__":
     
     testPopulation = np.random.rand(20,2)*np.random.randint(-1000, 1000)
     
-    print(DifferentialEvolution(testPopulation, sphere))
+    opt, fD = DifferentialEvolution(testPopulation, sphere)
+    print(opt)
 
 

@@ -11,6 +11,7 @@ def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
     dim = x.shape[-1]
     functionEvalCounter = 0
     oldFunctionValue = np.inf
+    fDynamic = []
     
     while (functionEvalCounter < functionEvaluation):
         # look around, create offspring
@@ -34,6 +35,7 @@ def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
             
         minIndex = np.argmin(fList)
         currentFunctionValue = fList[minIndex]
+        fDynamic.append(currentFunctionValue)
         
         # if function value did improve
         if currentFunctionValue < oldFunctionValue:
@@ -43,7 +45,7 @@ def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
         else:
             stepSize = stepSize*0.5
 
-    return x
+    return x, fDynamic
     
 
 
@@ -53,7 +55,8 @@ if __name__ == "__main__":
         return np.dot(x,x)
     
     print("start test")
-    opt = hillClimbing(np.array([34.23,-23.5,104.65,-1059,670.1,-340.3]), sphere)
+    opt, fD = hillClimbing(np.array([34.23,-23.5,104.65,-1059,670.1,-340.3]), sphere)
     print(opt)
+    print(fD)
     
     print("passed test")
