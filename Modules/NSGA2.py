@@ -223,7 +223,7 @@ def NSGA2 (population, function, maxGeneration=1000000):
     return Pt, fDynamic
 
 
-def populationInitialisation(function, populationSize, lowerBound, upperBound):
+def populationInitialisationNSGA2(function, populationSize, lowerBound, upperBound):
     problemSize = len(lowerBound)
     Pt = list()
     for i in range(populationSize):
@@ -309,7 +309,7 @@ if __name__ == "__main__":
     
     p1, p2 = tournamentSelection(Pt)
     
-    testPopulation = populationInitialisation(multiSphere, 100, [-10, -10], [10, 10])
+    testPopulation = populationInitialisationNSGA2(multiSphere, 100, [-10, -10], [10, 10])
     OP = NSGA2(testPopulation, multiSphere, maxGeneration=1000)
     for i in range(len(OP)):
         if OP[i].rank == 0:
