@@ -258,9 +258,9 @@ if __name__ == "__main__":
     print()
     
     points = [[0, 40], [2, 33], [5, 29], [8, 14], [10, 0], \
-              [3, 50], [7, 35], [9, 30], [14, 14], [17, 5], \
-              [1, 60], [4, 60], [6, 53], [10, 45], [12, 40], \
-              [14, 37], [18, 31], [15, 50], [17, 45], [20, 40]]
+             [3, 50], [7, 35], [9, 30], [14, 14], [17, 5], \
+             [1, 60], [4, 60], [6, 53], [10, 45], [12, 40], \
+             [14, 37], [18, 31], [15, 50], [17, 45], [20, 40]]
     
     testPopulation = list()
     for i in range(len(points)):
@@ -310,7 +310,7 @@ if __name__ == "__main__":
     p1, p2 = tournamentSelection(Pt)
     
     testPopulation = populationInitialisationNSGA2(multiSphere, 100, [-10, -10], [10, 10])
-    OP = NSGA2(testPopulation, multiSphere, maxGeneration=1000)
+    OP, FP = NSGA2(testPopulation, multiSphere, maxGeneration=5)
     for i in range(len(OP)):
         if OP[i].rank == 0:
             plt.plot(OP[i].fList[0], \

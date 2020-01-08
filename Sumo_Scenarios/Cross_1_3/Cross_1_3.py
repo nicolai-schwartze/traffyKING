@@ -90,10 +90,9 @@ def generate_routefile():
     # demand per second from different directions
     with open("Data/Cross12.rou.xml", "w") as routes:
         print("""<routes>
-        <vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" \
+        <vType id="Cartype" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" \
         guiShape="passenger"/>
-        <vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="25" guiShape="passenger"/>
-        
+         
         <route id="carflow1" edges="1NS1 1NS1_1" />
         <route id="carflow2" edges="1SN1 1SN1_1" />
         <route id="carflow3" edges="1WO1 1WO1_1" />
@@ -103,38 +102,38 @@ def generate_routefile():
         <route id="carflow7" edges="3NS1 3NS1_1" />
         <route id="carflow8" edges="3SN1 3SN1_1" />""", file=routes)
         vehNr = 0
-        L = [0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2]
+        L = [0.066,0.066,0.132,0.132,0.066,0.066,0.066,0.066]
         for i in range(N):
             for j in range(round(np.random.exponential(L[0]))):
-                print('    <vehicle id="%i" type="typeWE" route="carflow1" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow1" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[1]))):
-                print('    <vehicle id="%i" type="typeWE" route="carflow2" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow2" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[2]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow3" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow3" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[3]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow4" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow4" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[4]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow5" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow5" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[5]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow6" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow6" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[6]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow7" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow7" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
             for j in range(round(np.random.exponential(L[7]))):
-                print('    <vehicle id="%i" type="typeNS" route="carflow8" depart="%i" />' % (
+                print('    <vehicle id="%i" type="Cartype" route="carflow8" depart="%i" />' % (
                     vehNr, i), file=routes)
                 vehNr += 1
         print("</routes>", file=routes)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2019.9.19)  18 NOV 2019 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2019.9.19)  27 NOV 2019 15:32
 entering extended mode
 **traffyKING_documentation.tex traffyKING_documentation.tex
 (traffyKING_documentation.tex
@@ -3125,11 +3125,11 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 154.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package epstopdf Info: Source file: <./img/TitlePage/fhvLogo_neu.eps>
-(epstopdf)                    date: 2019-09-19 09:13:05
+(epstopdf)                    date: 2019-11-27 15:28:13
 (epstopdf)                    size: 1168946 bytes
 (epstopdf)             Output file: <./img/TitlePage/fhvLogo_neu-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2019-09-19 09:13:05
+(epstopdf)                    date: 2019-11-27 15:28:13
 (epstopdf)                    size: 17218 bytes
 (epstopdf)             Command: <epstopdf --outfile=./img/TitlePage/fhvLogo_neu
 -eps-converted-to.pdf ./img/TitlePage/fhvLogo_neu.eps>
@@ -3679,7 +3679,7 @@ ic/cm-super/sfxc1095.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/cm-super/sfxc2488.pfb>
 Output written on "C:\Users\Admin\OneDrive\FH Mechatronik\3. Semester\Projekt S
 imulation und Optimierung\Project\traffyKING\Documentation\build\traffyKING_doc
-umentation.pdf" (22 pages, 966295 bytes).
+umentation.pdf" (22 pages, 966162 bytes).
 PDF statistics:
  594 PDF objects out of 1000 (max. 8388607)
  492 compressed objects within 5 object streams

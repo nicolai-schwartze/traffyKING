@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <additional>
 
-	 <tlLogic id="C1" type="static" programID="1" offset="5.801053"> 
-             <phase duration="10.819579" state="GGgrrrGGgrrr"/> 
+	 <tlLogic id="C1" type="static" programID="1" offset="-25.317189"> 
+             <phase duration="-6.261531" state="GGgrrrGGgrrr"/> 
              <phase duration="3"  state="yygrrryygrrr"/> 
-             <phase duration="7.213053" state="rrGrrrrrGrrr"/> 
+             <phase duration="-4.174354" state="rrGrrrrrGrrr"/> 
              <phase duration="3"  state="rryrrrrryrrr"/> 
-             <phase duration="10.819579" state="rrrGGgrrrGGg"/> 
+             <phase duration="-6.261531" state="rrrGGgrrrGGg"/> 
              <phase duration="3"  state="rrryygrrryyg"/> 
-             <phase duration="7.213053" state="rrrrrGrrrrrG"/> 
+             <phase duration="-4.174354" state="rrrrrGrrrrrG"/> 
              <phase duration="3"  state="rrrrryrrrrry"/> 
          </tlLogic> 
 
-	 <tlLogic id="C2" type="static" programID="1" offset="38.561421"> 
-             <phase duration="10.819579" state="GGgrrrGGgrrr"/> 
+	 <tlLogic id="C2" type="static" programID="1" offset="-13.662673"> 
+             <phase duration="-6.261531" state="GGgrrrGGgrrr"/> 
              <phase duration="3"  state="yygrrryygrrr"/> 
-             <phase duration="3.606526" state="rrGrrrrrGrrr"/> 
+             <phase duration="-2.087177" state="rrGrrrrrGrrr"/> 
              <phase duration="3"  state="rryrrrrryrrr"/> 
-             <phase duration="18.032631" state="rrrGGgrrrGGg"/> 
+             <phase duration="-10.435885" state="rrrGGgrrrGGg"/> 
              <phase duration="3"  state="rrryygrrryyg"/> 
-             <phase duration="3.606526" state="rrrrrGrrrrrG"/> 
+             <phase duration="-2.087177" state="rrrrrGrrrrrG"/> 
              <phase duration="3"  state="rrrrryrrrrry"/> 
          </tlLogic> 
 
-	 <tlLogic id="C3" type="static" programID="1" offset="45.263668"> 
-             <phase duration="10.819579" state="GGgrrrGGgrrr"/> 
+	 <tlLogic id="C3" type="static" programID="1" offset="-62.796850"> 
+             <phase duration="-6.261531" state="GGgrrrGGgrrr"/> 
              <phase duration="3"  state="yygrrryygrrr"/> 
-             <phase duration="14.426105" state="rrGrrrrrGrrr"/> 
+             <phase duration="-8.348708" state="rrGrrrrrGrrr"/> 
              <phase duration="3"  state="rryrrrrryrrr"/> 
-             <phase duration="7.213053" state="rrrGGgrrrGGg"/> 
+             <phase duration="-4.174354" state="rrrGGgrrrGGg"/> 
              <phase duration="3"  state="rrryygrrryyg"/> 
-             <phase duration="3.606526" state="rrrrrGrrrrrG"/> 
+             <phase duration="-2.087177" state="rrrrrGrrrrrG"/> 
              <phase duration="3"  state="rrrrryrrrrry"/> 
          </tlLogic> 
 
