@@ -6,12 +6,16 @@ Created on Tue Nov  5 09:13:12 2019
 """
 
 import numpy as np
+import copy
+import pickle
 
 def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
     dim = x.shape[-1]
     functionEvalCounter = 0
     oldFunctionValue = np.inf
     fDynamic = []
+    saveList = []
+    iterationCounter = 0
     
     while (functionEvalCounter < functionEvaluation):
         # look around, create offspring
@@ -44,6 +48,12 @@ def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
         # else adapt step size
         else:
             stepSize = stepSize*0.5
+            
+        saveList.append((copy.deepcopy(x), copy.deepcopy(fDynamic)))
+        iterationCounter = iterationCounter + 1
+        with open('HC_SaveList.pkl', 'wb') as f:
+            pickle.dump(saveList, f)
+        print("Iteration: " + str(iterationCounter))
 
     return x, fDynamic
     

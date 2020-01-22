@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow" type="car" beg="N" end="1000" number="741" from="1NS1" to="1NS1_1"/>
+	
+	<vType id="car2" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow2" type="car" beg="S" end="1000" number="741" from="1SN1" to="1SN1_1"/>
+	
+	<vType id="car3" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow3" type="car" beg="W" end="1000" number="741" from="1WO1" to="1WO1_1"/>
+	
+	<vType id="car4" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow4" type="car" beg="O" end="1000" number="741" from="1OW1" to="1OW1_1"/>
+
+	<vType id="car5" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow5" type="car" beg="O" end="1000" number="741" from="2NS1" to="2NS1_1"/>
+
+	<vType id="car6" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow6" type="car" beg="O" end="1000" number="741" from="3NS1" to="3NS1_1"/>
+
+	<vType id="car7" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow7" type="car" beg="O" end="1000" number="741" from="2SN1" to="2SN1_1"/>
+
+	<vType id="car8" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+	<flow id="carflow8" type="car" beg="O" end="1000" number="741" from="3SN1" to="3SN1_1"/>
+</routes>

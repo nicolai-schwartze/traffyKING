@@ -26,7 +26,9 @@ from sumolib import checkBinary
 import traci
 
 def function_Cross_1_3(array):
-    relativeGreen = np.array([[0.3,0.2,0.3,0.2],[0.3,0.1,0.5,0.1],[0.3,0.4,0.2,0.1]])
+    relativeGreen = np.array([[0.25      , 0.08333333, 0.5       , 0.16666667], \
+                              [0.27272727, 0.09090909, 0.47727273, 0.15909091], \
+                              [0.25      , 0.08333333, 0.5       , 0.16666667]])
     periode = array[0]
     numberOfTrafficlights = 3
     
@@ -149,17 +151,18 @@ if __name__ == "__main__":
     print("time for one function evaluation: ")
     print(time.time() - t)
     print(50*"=")
-    print("optimisation")
-    opt1, fD1 = HC.hillClimbing(array, function_Cross_1_3, stepSize=1, functionEvaluation=1)
-    print("passed HC")
-    opt2, fD2 = CGD.ConjugateGradientDescent(array, function_Cross_1_3, epsilon=10, alpha=0.1, eta=10, h=np.finfo(np.float64).eps)
-    print("passed CGD")
-    pop = np.random.rand(5,4)*np.random.randint(-100, 100)
-    opt3, fD3 = DE.DifferentialEvolution(pop, function_Cross_1_3, maxFunctionEval=6, F=0.5, CR=0.1)
-    print("passed DE")
-    pop = NSGA2.populationInitialisationNSGA2(function_Cross_1_3, 5, [5, 5, 5, 5], [70, 70, 70, 70])
-    opt4, fD4 = NSGA2.NSGA2(pop, function_Cross_1_3, maxGeneration=1)
-    print("passed NSGA2")
-    print(50*"=")
-    print("passed test")    
+    # print("optimisation")
+    # opt1, fD1 = HC.hillClimbing(array, function_Cross_1_3, stepSize=1, functionEvaluation=1)
+    # print("passed HC")
+    # opt2, fD2 = CGD.ConjugateGradientDescent(array, function_Cross_1_3, epsilon=10, alpha=0.1, eta=10, h=np.finfo(np.float64).eps)
+    # print("passed CGD")
+    # pop = np.random.rand(5,4)*np.random.randint(-100, 100)
+    # opt3, fD3 = DE.DifferentialEvolution(pop, function_Cross_1_3, maxFunctionEval=6, F=0.5, CR=0.1)
+    # print("passed DE")
+    # pop = NSGA2.populationInitialisationNSGA2(function_Cross_1_3, 5, [5, 5, 5, 5], [70, 70, 70, 70])
+    # opt4, fD4 = NSGA2.NSGA2(pop, function_Cross_1_3, maxGeneration=2)
+    # print(time.time() - t)
+    # print("passed NSGA2")
+    # print(50*"=")
+    # print("passed test")    
    

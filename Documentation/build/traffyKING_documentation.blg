@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [1] Config.pm:307> INFO - Logfile is 'build\traffyKING_documentation.blg'
-[69] biber-MSWIN64:315> INFO - === 
-[125] Biber.pm:371> INFO - Reading 'build\traffyKING_documentation.bcf'
-[318] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
-[351] Biber.pm:4093> INFO - Processing section 0
-[377] Biber.pm:4254> INFO - Looking for bibtex format file './bib/Bibliography.bib' for section 0
-[393] bibtex.pm:1523> INFO - LaTeX decoding ...
-[427] bibtex.pm:1340> INFO - Found BibTeX data source './bib/Bibliography.bib'
-[472] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Admin\AppData\Local\Temp\gcY0rdpOjn\Bibliography.bib_12540.utf8, line 42, warning: undefined macro "dez"
-[495] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[495] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[495] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[495] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
-[513] bbl.pm:636> INFO - Writing 'build\traffyKING_documentation.bbl' with encoding 'UTF-8'
-[519] bbl.pm:739> INFO - Output to build\traffyKING_documentation.bbl
-[527] Biber.pm:110> INFO - WARNINGS: 1
+[110] biber-MSWIN64:315> INFO - === 
+[198] Biber.pm:371> INFO - Reading 'build\traffyKING_documentation.bcf'
+[490] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
+[534] Biber.pm:4093> INFO - Processing section 0
+[572] Biber.pm:4254> INFO - Looking for bibtex format file './bib/Bibliography.bib' for section 0
+[596] bibtex.pm:1523> INFO - LaTeX decoding ...
+[631] bibtex.pm:1340> INFO - Found BibTeX data source './bib/Bibliography.bib'
+[698] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Admin\AppData\Local\Temp\MsHxyiYhAJ\Bibliography.bib_11772.utf8, line 42, warning: undefined macro "dez"
+[860] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[861] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[866] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[867] Biber.pm:3927> INFO - No sort tailoring available for locale 'de-DE'
+[912] bbl.pm:636> INFO - Writing 'build\traffyKING_documentation.bbl' with encoding 'UTF-8'
+[926] bbl.pm:739> INFO - Output to build\traffyKING_documentation.bbl
+[957] Biber.pm:110> INFO - WARNINGS: 1

@@ -7,6 +7,7 @@ Created on Sat Oct 19 13:08:37 2019
 
 import numpy as np
 import copy
+import pickle
 
 
 class individual:
@@ -178,6 +179,7 @@ def tournamentSelection(Pt):
 
 
 def NSGA2 (population, function, maxGeneration=1000000):
+    saveList = []
     Pt = copy.deepcopy(population)   
     parentPopulationSize = len(Pt)
     generationCounter = 0
@@ -219,6 +221,10 @@ def NSGA2 (population, function, maxGeneration=1000000):
             fDynamic.append(p.fList)
             
         generationCounter = generationCounter + 1
+        saveList.append((copy.deepcopy(Pt), copy.deepcopy(fDynamic)))
+        with open('NSGA2_SaveList.pkl', 'wb') as f:
+            pickle.dump(saveList, f)
+        print("Generation: " + str(generationCounter))
 
     return Pt, fDynamic
 

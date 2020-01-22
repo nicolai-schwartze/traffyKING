@@ -7,18 +7,17 @@ This project is about simulating and optimising a circulative traffic light cont
 The project includes the following tasks: 
 \begin{itemize}
 	\item create infrastructure to call simulation and alter simulation parametes in SUMO
-	\item construct three different traffic load scenarios
+	\item construct different intersections at different traffic loads
 	\begin{itemize}
-		\item Manhatten Grid: 1x1, 1x3, 3x3
+		\item Manhatten grid layout: 1x1, 1x3, 3x3
 		\item traffic load: night, noon, rush-hour
 	\end{itemize}
-	\item five different optimisation algorithms
+	\item four different optimisation algorithms
 	\begin{itemize}
 		\item NSGA2
 		\item Conjugate Gradinet Descent
 		\item Differential Evolution
 		\item self created heuristic using Hill-Climbing
-		\item self constructed solution
 	\end{itemize}
 	\item description and evaluation of the results
 	\item precise technical report to ensure repeatability 
@@ -34,7 +33,6 @@ We are looking for a solution that minimises all of these parameters. \\
 All of the considered traffic load scenarios are stable. This means, that the waiting line does not grow arbitrarily larg. 
 
 \newpage
-
 
 \chapter{Simulation Infrastructur}
 sumo environment, simulation runner, simulation parameter, reroute, tripinfofile and simulation result\\

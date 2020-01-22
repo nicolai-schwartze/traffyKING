@@ -1,0 +1,43 @@
+<routes>
+        <vType id="Cartype" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67"         guiShape="passenger"/>
+         
+        <route id="carflow1" edges="2NS1 2NS1_1" />
+        <route id="carflow2" edges="2SN1 2SN1_1" />
+        <route id="carflow3" edges="2WO1 2WO1_1" />
+        <route id="carflow4" edges="2OW1 2OW1_1" />
+    <vehicle id="0" type="Cartype" route="carflow2" depart="20" />
+    <vehicle id="1" type="Cartype" route="carflow3" depart="93" />
+    <vehicle id="2" type="Cartype" route="carflow2" depart="152" />
+    <vehicle id="3" type="Cartype" route="carflow2" depart="242" />
+    <vehicle id="4" type="Cartype" route="carflow4" depart="308" />
+    <vehicle id="5" type="Cartype" route="carflow1" depart="595" />
+    <vehicle id="6" type="Cartype" route="carflow1" depart="609" />
+    <vehicle id="7" type="Cartype" route="carflow2" depart="656" />
+    <vehicle id="8" type="Cartype" route="carflow2" depart="935" />
+    <vehicle id="9" type="Cartype" route="carflow4" depart="1084" />
+    <vehicle id="10" type="Cartype" route="carflow1" depart="1389" />
+    <vehicle id="11" type="Cartype" route="carflow1" depart="1443" />
+    <vehicle id="12" type="Cartype" route="carflow2" depart="1462" />
+    <vehicle id="13" type="Cartype" route="carflow2" depart="1540" />
+    <vehicle id="14" type="Cartype" route="carflow4" depart="1620" />
+    <vehicle id="15" type="Cartype" route="carflow1" depart="1745" />
+    <vehicle id="16" type="Cartype" route="carflow4" depart="1853" />
+    <vehicle id="17" type="Cartype" route="carflow2" depart="1924" />
+    <vehicle id="18" type="Cartype" route="carflow3" depart="2013" />
+    <vehicle id="19" type="Cartype" route="carflow3" depart="2162" />
+    <vehicle id="20" type="Cartype" route="carflow1" depart="2218" />
+    <vehicle id="21" type="Cartype" route="carflow4" depart="2285" />
+    <vehicle id="22" type="Cartype" route="carflow1" depart="2306" />
+    <vehicle id="23" type="Cartype" route="carflow4" depart="2344" />
+    <vehicle id="24" type="Cartype" route="carflow4" depart="2347" />
+    <vehicle id="25" type="Cartype" route="carflow1" depart="2700" />
+    <vehicle id="26" type="Cartype" route="carflow4" depart="2869" />
+    <vehicle id="27" type="Cartype" route="carflow1" depart="2932" />
+    <vehicle id="28" type="Cartype" route="carflow2" depart="3135" />
+    <vehicle id="29" type="Cartype" route="carflow1" depart="3249" />
+    <vehicle id="30" type="Cartype" route="carflow1" depart="3300" />
+    <vehicle id="31" type="Cartype" route="carflow4" depart="3361" />
+    <vehicle id="32" type="Cartype" route="carflow3" depart="3376" />
+    <vehicle id="33" type="Cartype" route="carflow4" depart="3595" />
+    <vehicle id="34" type="Cartype" route="carflow4" depart="3599" />
+</routes>

@@ -6,6 +6,9 @@ Created on Mon Oct 21 21:04:26 2019
 """
 
 import numpy as np
+import copy
+import pickle
+
 
 def ConjugateGradientDescent(x, function, epsilon=10**(-3), alpha=0.1, eta=10, h=np.finfo(np.float64).eps): 
     
@@ -13,7 +16,8 @@ def ConjugateGradientDescent(x, function, epsilon=10**(-3), alpha=0.1, eta=10, h
     grad_old = np.ones(x.size)
     eta_opt = eta
     fDynamic = []
-    
+    iterationCounter = 0
+    saveList = []
     while(np.linalg.norm(grad_old) > epsilon or np.linalg.norm(eta_opt*d) > epsilon):
         grad = numGrad(function, x)
         d = (-1)*grad + ((np.linalg.norm(grad)**2)/(np.linalg.norm(grad_old)**2))*d
@@ -24,6 +28,12 @@ def ConjugateGradientDescent(x, function, epsilon=10**(-3), alpha=0.1, eta=10, h
         x = x + eta_opt*(d/np.linalg.norm(d))
         grad_old = grad
         fDynamic.append(function(x))
+        
+        iterationCounter = iterationCounter + 1
+        saveList.append((copy.deepcopy(x), copy.deepcopy(fDynamic)))
+        with open('CGD_SaveList.pkl', 'wb') as f:
+            pickle.dump(saveList, f)
+        print("Iteration: " + str(iterationCounter))
         
     return x, fDynamic
 
@@ -92,5 +102,5 @@ if __name__ == "__main__":
     
     print(numGrad(sphere, np.array([1,1])))
     print(lineSearch(np.array([1, 1]), np.array([-1, -1]), 5, 10**-3, sphere))
-    opt, fD = ConjugateGradientDescent(np.array([1042, -34892]), sphere)
+    opt, fD = ConjugateGradientDescent(np.array([10, -10]), sphere)
     print(opt)

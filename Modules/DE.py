@@ -6,6 +6,8 @@ Created on Thu Apr 11 10:30:04 2019
 """
 
 import numpy as np
+import copy
+import pickle
 
 
 def crossoverBIN(xi, vi, CR):
@@ -38,6 +40,8 @@ def DifferentialEvolution(population, function, maxFunctionEval=10000, F=0.5, CR
     functionEvalCounter = populationSize
     fDynamic = []
     bestCandidateIndex = np.argmin(functionValue)
+    generationCounter = 0
+    saveList = []
 
     while(functionEvalCounter < maxFunctionEval):
         for i in range(populationSize):
@@ -50,6 +54,12 @@ def DifferentialEvolution(population, function, maxFunctionEval=10000, F=0.5, CR
                 functionValue[i] = tempFuncValue
         bestCandidateIndex=np.argmin(functionValue)
         fDynamic.append(functionValue[bestCandidateIndex])
+        
+        generationCounter = generationCounter + 1
+        saveList.append((copy.deepcopy(population[bestCandidateIndex]), copy.deepcopy(fDynamic)))
+        with open('DE_SaveList.pkl', 'wb') as f:
+            pickle.dump(saveList, f)
+        print("Iteration: " + str(generationCounter))
 
     return population[bestCandidateIndex], fDynamic
 
