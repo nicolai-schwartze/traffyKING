@@ -42,7 +42,7 @@ def function_Cross_3_3(array):
     generate_additional(array, periode, relativeGreen, numberOfTrafficlights)
     
     tempList = []
-    sumoBinary = checkBinary('sumo-gui')
+    sumoBinary = checkBinary('sumo')
     for run in range(1,11):
         generate_routefile()
         
@@ -145,7 +145,8 @@ if __name__ == "__main__":
     import time
     array = np.array([30.27803165,0.0,72.18652272,78.95085281,77.69786497,161.59236892,67.73076971,87.20651906,56.78749669,74.66203013])
     t = time.time()
-    function_Cross_3_3(array)
+    f = function_Cross_3_3(array)
+    print(f)
     print("time for one function evaluation: ")
     print(time.time() - t)
     print(50*"=")
@@ -157,9 +158,9 @@ if __name__ == "__main__":
     # pop = np.random.rand(5,4)*np.random.randint(-100, 100)
     # opt3, fD3 = DE.DifferentialEvolution(pop, function_Cross_3_3, maxFunctionEval=6, F=0.5, CR=0.1)
     # print("passed DE")
-    pop = NSGA2.populationInitialisationNSGA2(function_Cross_3_3, 5, [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [70, 70, 70, 70, 70, 70, 70, 70, 70, 70])
-    print("finished init")
-    opt4, fD4 = NSGA2.NSGA2(pop, function_Cross_3_3, maxGeneration=2)
+    # pop = NSGA2.populationInitialisationNSGA2(function_Cross_3_3, 5, [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [70, 70, 70, 70, 70, 70, 70, 70, 70, 70])
+    # print("finished init")
+    # opt4, fD4 = NSGA2.NSGA2(pop, function_Cross_3_3, maxGeneration=2)
     # print(time.time() - t)
     # print("passed NSGA2")
     # print(50*"=")
