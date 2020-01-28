@@ -1,19 +1,20 @@
-***Starting server on port 54894 ***
-Loading net-file from 'Data/Cross_3_3.net.xml'... done (14ms).
-Loading additional-files from 'Data/rerouter.xml'... done (15ms).
-Loading additional-files from 'Data/trafficLight.add.xml'... done (2ms).
+***Starting server on port 56701 ***
+Loading net-file from 'Data/Cross_3_3.net.xml'... done (53ms).
+Loading additional-files from 'Data/rerouter.xml'... done (19ms).
+Loading additional-files from 'Data/trafficLight.add.xml'... done (1ms).
 Loading done.
 Simulation version 1.3.1 started with time: 0.00
-Simulation ended at time: 1645.00
+Warning: Vehicle '723' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=1259.00.
+Simulation ended at time: 1398.00
 Reason: TraCI requested termination.
 Performance: 
- Duration: 11461ms
- Real time factor: 143.53
- UPS: 20744.961173
+ Duration: 10777ms
+ Real time factor: 129.721
+ UPS: 25043.054653
 Vehicles: 
- Inserted: 1288 (Loaded: 2365)
- Running: 156
- Waiting: 852
+ Inserted: 1077 (Loaded: 1796)
+ Running: 274
+ Waiting: 707
 
-DijkstraRouter answered 3927 queries and explored 6.74 edges on average.
-DijkstraRouter spent 16ms answering queries (0.00ms on average).
+DijkstraRouter answered 3012 queries and explored 6.76 edges on average.
+DijkstraRouter spent 9ms answering queries (0.00ms on average).

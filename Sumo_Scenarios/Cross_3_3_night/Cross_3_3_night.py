@@ -42,7 +42,7 @@ def function_Cross_3_3(array):
     generate_additional(array, periode, relativeGreen, numberOfTrafficlights)
     
     tempList = []
-    sumoBinary = checkBinary('sumo')
+    sumoBinary = checkBinary('sumo-gui')
     for run in range(1,11):
         generate_routefile()
         
@@ -143,7 +143,7 @@ def generate_routefile():
 # this is the main entry point of this script
 if __name__ == "__main__":
     import time
-    array = np.array([49,5,9,17,4,34,1,56,3,87])
+    array = np.array([30.27803165,0.0,72.18652272,78.95085281,77.69786497,161.59236892,67.73076971,87.20651906,56.78749669,74.66203013])
     t = time.time()
     function_Cross_3_3(array)
     print("time for one function evaluation: ")

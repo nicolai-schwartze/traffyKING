@@ -22,19 +22,19 @@ import Cross_3_3_night as c33
 if __name__ == "__main__":
     
     # calculating
-    print("start init random")
-    pop = NSGA2.populationInitialisationNSGA2(c33.function_Cross_3_3, 30, [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [70, 70, 70, 70, 70, 70, 70, 70, 70, 70])
-    # print("read old pop")
-    # with open('NSGA2_SaveList.pkl', 'rb') as pickle_file:
-    #     backup = pickle.load(pickle_file)
-    # pop = backup[-1][0]
+    # print("start init random")
+    # pop = NSGA2.populationInitialisationNSGA2(c33.function_Cross_3_3, 30, [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [70, 70, 70, 70, 70, 70, 70, 70, 70, 70])
+    print("read old pop")
+    with open('NSGA2_SaveList.pkl', 'rb') as pickle_file:
+        backup = pickle.load(pickle_file)
+    pop = backup[-1][0]
     print("finished init")
-    opt4, fD4 = NSGA2.NSGA2(pop, c33.function_Cross_3_3, maxGeneration=4)
+    opt4, fD4 = NSGA2.NSGA2(pop, c33.function_Cross_3_3, maxGeneration=6)
         
         
         
         
-    # # plotting 3D Scatter
+    # plotting 3D Scatter
     # from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
     # import matplotlib.pyplot as plt
     # with open('NSGA2_SaveList.pkl', 'rb') as pickle_file:

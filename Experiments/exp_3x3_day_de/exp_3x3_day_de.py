@@ -24,7 +24,7 @@ if __name__ == "__main__":
     
     # calculating
     print("start init random")
-    pop = np.random.rand(20,2)*np.random.randint(5, 70)
+    pop = np.random.rand(20,10)*np.random.randint(5, 70)
     # print("read old pop")
     # with open('DE_SaveList.pkl', 'rb') as pickle_file:
     #     backup = pickle.load(pickle_file)

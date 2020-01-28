@@ -182,6 +182,27 @@ sumo cross, reroute probability (Abbiegewahrscheinlichekit), LP, qin max
 
 \chapter{Experiments}
 
+\section{Preparation}
+
+\subsection{calculations relative green}
+
+The following image \ref{fig:greenphases} shows the green phases for each intersection.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{../img/png/cross_phases.png}
+	\unterschrift{traffic light phases for each intersection}{}{}
+	\label{fig:greenphases}
+\end{figure}
+
+The calculation of the relative greens phases is related to the input stream into the intersection. If we call the input stream from the street i $I_{i}$ and the turn probability from the i-th street to the j-th street $p_{ij}$, then we can determine the relative green time using an weighted average. Note that the streets are numerated from 1 (north) increasing clockwise to 4 (west). For the first relative green time (seen in figure \ref{fig:greenphases}, upper left corner) we get the following calculation:
+
+\begin{equation}\label{key}
+rg_{phase 1} = \frac{max(I_{1}(p_{13} + p_{14})+I_{3}(p_{31}+p_{32}))}{\sum_{i=1}^{4}phase_{i}} 
+\end{equation}
+
+This is because, we have an input stream from street 1 divided (according to the turn probabilities) into street 3 ($I_{1}p_{13}$) and street 4 ($I_{1}p_{14}$). The same is done for the input stream $I_{3}$. Then this value is divided by the sum of all green phases. This procedure is then used to calculate all four phases.
+
 \section{Results}
 
 \chapter{Conclusion}

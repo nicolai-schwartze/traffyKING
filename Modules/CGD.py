@@ -74,6 +74,7 @@ def lineSearch(x, d, eta, epsilon, function):
     fb = function2(mu)
     
     while(b-a > epsilon):
+        print(b-a)
         if(fa > fb): 
             a = Lambda
             Lambda = mu

@@ -30,4 +30,4 @@ if __name__ == "__main__":
     #     backup = pickle.load(pickle_file)
     # x = backup[-1][0]
     print("finished init")
-    opt4, fD4 = CGD.ConjugateGradientDescent(x, c33.function_Cross_3_3)
+    opt4, fD4 = CGD.ConjugateGradientDescent(x, c33.function_Cross_3_3,epsilon=10**(-1))
