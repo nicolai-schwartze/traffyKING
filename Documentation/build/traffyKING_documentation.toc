@@ -1,22 +1,30 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\nonumberline List of Figures}{II}{chapter*.4}%
-\contentsline {chapter}{List of Algorithms}{III}{section*.5}%
+\contentsline {chapter}{\nonumberline List of Figures}{III}{chapter*.4}%
+\contentsline {chapter}{\nonumberline List of Tables}{IV}{chapter*.6}%
+\contentsline {chapter}{List of Algorithms}{V}{section*.7}%
 \contentsline {chapter}{\numberline {1}Task Description}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Simulation Infrastructur}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Algorithms}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Differential Evolution}{3}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Nondominated Sorting Genetic Algorithm II}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Conjugate Gradient Descent}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Hill Climbing}{5}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Scenarios}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Experiments}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Preparation}{8}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}calculations relative green}{8}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Results}{9}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{10}{chapter.6}%
-\contentsline {chapter}{\nonumberline Bibliography}{11}{chapter*.11}%
-\contentsline {chapter}{Appendices}{12}{section*.13}%
-\contentsline {chapter}{\numberline {A}Task Description $\left ( german \right ) $}{13}{appendix.A}%
-\contentsline {chapter}{\numberline {B}NSGA II Description}{16}{appendix.B}%
+\contentsline {chapter}{\numberline {2}Scenarios}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Street Network}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Traffic Load}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Calculate Relative Green}{4}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Algorithms}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Differential Evolution}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Nondominated Sorting Genetic Algorithm II}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Conjugate Gradient Descent}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Hill Climbing}{11}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Simulation Infrastructur}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Experiments}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}NSGA-II night}{16}{section.5.1}%
+\contentsline {section}{\numberline {5.2}NSGA-II day}{18}{section.5.2}%
+\contentsline {section}{\numberline {5.3}HC night}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}HC day}{24}{section.5.4}%
+\contentsline {section}{\numberline {5.5}CGD on night and day}{25}{section.5.5}%
+\contentsline {section}{\numberline {5.6}DE on night and day}{28}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Critical Discussion}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion and Further Work}{33}{chapter.7}%
+\contentsline {chapter}{\nonumberline Bibliography}{35}{chapter*.24}%
+\contentsline {chapter}{Appendices}{36}{section*.26}%
+\contentsline {chapter}{\numberline {A}Task Description $\left ( german \right ) $}{37}{appendix.A}%
+\contentsline {chapter}{\numberline {B}NSGA-II Description}{40}{appendix.B}%

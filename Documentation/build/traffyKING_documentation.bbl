@@ -88,6 +88,55 @@
       \verb http://ieeexplore.ieee.org/document/996017/
       \endverb
     \endentry
+    \entry{epitropakis_finding_2011}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9fbdd56056651a3d4752cca8de18d573}{%
+           family={Epitropakis},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88bb9baf250e3a4f24fdabc79b1ec07a}{%
+           family={Plagianakos},
+           familyi={P\bibinitperiod},
+           given={Vassilis\bibnamedelima P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5b1f7a311b849208f2c217a6d78850}{%
+           family={Vrahatis},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \strng{fullhash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \strng{bibnamehash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \strng{authorbibnamehash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \strng{authornamehash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \strng{authorfullhash}{e465da97345d84b0a3b2da59f2cc5ed7}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Handling multimodal functions is a very important and challenging task in evolutionary computation community, since most of the real-world applications exhibit highly multi-modal landscapes. Motivated by the dynamics and the proximity characteristics of Differential Evolution's mutation strategies tending to distribute the individuals of the population to the vicinity of the problem's minima, we introduce two new Differential Evolution mutation strategies. The new mutation strategies incorporate spatial information about the neighborhood of each potential solution and exhibit a niching formation, without incorporating any additional parameter. Experimental results on eight well known multimodal functions and comparisons with some state-of-the-art algorithms indicate that the proposed mutation strategies are competitive and very promising, since they are able to reliably locate and maintain many global optima throughout the evolution process.}
+      \field{booktitle}{2011 {IEEE} Symposium on Differential Evolution ({SDE})}
+      \field{eventtitle}{2011 {IEEE} Symposium on Differential Evolution ({SDE})}
+      \field{month}{4}
+      \field{title}{Finding multiple global optima exploiting differential evolution's niching capability}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/SDE.2011.5952058
+      \endverb
+      \verb{file}
+      \verb Epitropakis et al. - 2011 - Finding multiple global optima exploiting differen.pdf:C\:\\Users\\Nicolai\\OneDrive\\FH Mechatronik\\Literaturquellen\\storage\\CU4C4U3L\\Epitropakis et al. - 2011 - Finding multiple global optima exploiting differen.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{hestenes_methods_1952}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f6c6be7ca0c4fd448c1ed3d1f5586b29}{%

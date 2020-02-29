@@ -3,10 +3,30 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 3x3 street network\relax }}{2}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces creation of street network\relax }}{3}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces calculation with $\epsilon = 0.5$\relax }}{4}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces calculation with $\epsilon = 0.9$\relax }}{4}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces traffic light phases for each intersection}}{5}{figure.2.5}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces testrun of differential evolution on the sphere, shows how the function value depends on the iteration\relax }}{8}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces testrun of the NSGA-II algorithm on the multi-criteria sphere, shows the found solutions in function space\relax }}{9}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces testrun of the CDG algorithm on a 2D sphere\relax }}{11}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces testrun of the HC heuristic on a sphere function\relax }}{12}{figure.3.4}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces flowchart of a complete experiment including the setup and optimisation\relax }}{15}{figure.4.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces traffic light phases for each intersection}}{8}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces sample result of the NSGA-II on the night scenario after initialisation\relax }}{17}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces sample result of the NSGA-II on the night scenario after 14 generation\relax }}{17}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Histogram of the cycle time distribution in the last population of the NSGA-II on the night scenarion.\relax }}{18}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces sample result of the NSGA-II on the day scenario after initialisation\relax }}{19}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces sample result of the NSGA-II on the day scenario after 19 generation\relax }}{20}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Histogram of the cycle time distribution in the last population of the NSGA-II on the day scenarion.\relax }}{21}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces sample result of the HC Algorithm during the night scenario\relax }}{23}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces sample result of the HC Algorithm during the day scenario\relax }}{24}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces sample result of the CGD Algorithm during the night scenario\relax }}{26}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces sample result of the CGD Algorithm during the day scenario\relax }}{27}{figure.5.10}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

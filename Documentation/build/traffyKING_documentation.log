@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  28 JAN 2020 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.10)  29 FEB 2020 16:15
 entering extended mode
 **traffyKING_documentation.tex traffyKING_documentation.tex
 (traffyKING_documentation.tex
@@ -3315,6 +3315,15 @@ Package cleveref Info: loaded `english' language definitions on input line 3.
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
+Package cleveref Info: loaded `english' language definitions on input line 154.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[2]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
 Package tocbasic Info: character protrusion at lof deactivated on input line 15
 4.
 
@@ -3327,7 +3336,26 @@ Package cleveref Info: loaded `english' language definitions on input line 3.
 
 \openout3 = `traffyKING_documentation.mw'.
 
- [2
+ [3
+
+]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package tocbasic Info: character protrusion at lot deactivated on input line 15
+4.
+
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.lot"
+Package cleveref Info: loaded `english' language definitions on input line 3.
+)
+\tf@lot=\write29
+\openout12 = `traffyKING_documentation.lot'.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+ [4
 
 ]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
@@ -3338,12 +3366,12 @@ ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.loa"
 )
-\tf@loa=\write29
-\openout12 = `traffyKING_documentation.loa'.
+\tf@loa=\write30
+\openout13 = `traffyKING_documentation.loa'.
 
 \openout3 = `traffyKING_documentation.mw'.
 
- [3
+ [5
 
 
 
@@ -3374,111 +3402,505 @@ ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
+<../img/jpg/3x3_inf.jpg, id=279, 640.64343pt x 627.84563pt>
+File: ../img/jpg/3x3_inf.jpg Graphic file (type jpg)
+<use ../img/jpg/3x3_inf.jpg>
+Package pdftex.def Info: ../img/jpg/3x3_inf.jpg  used on input line 49.
+(pdftex.def)             Requested size: 298.5pt x 292.53917pt.
 \openout3 = `traffyKING_documentation.mw'.
 
 [2
 
-]
+ <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und O
+ptimierung/Project/traffyKING/Documentation/img/jpg/3x3_inf.jpg>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/StreetNetworker.png, id=287, 503.63156pt x 320.69812pt>
+File: ../img/png/StreetNetworker.png Graphic file (type png)
+<use ../img/png/StreetNetworker.png>
+Package pdftex.def Info: ../img/png/StreetNetworker.png  used on input line 64.
+
+(pdftex.def)             Requested size: 358.19757pt x 228.08873pt.
+<../img/png/epsilon05.png, id=290, 687.69421pt x 380.54672pt>
+File: ../img/png/epsilon05.png Graphic file (type png)
+<use ../img/png/epsilon05.png>
+Package pdftex.def Info: ../img/png/epsilon05.png  used on input line 73.
+(pdftex.def)             Requested size: 318.40121pt x 176.19171pt.
+Package cleveref Info: loaded `english' language definitions on input line 77.
+\openout3 = `traffyKING_documentation.mw'.
+
+[3 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und
+ Optimierung/Project/traffyKING/Documentation/img/png/StreetNetworker.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/epsilon09.png, id=296, 709.65125pt x 408.02437pt>
+File: ../img/png/epsilon09.png Graphic file (type png)
+<use ../img/png/epsilon09.png>
+Package pdftex.def Info: ../img/png/epsilon09.png  used on input line 80.
+(pdftex.def)             Requested size: 318.40121pt x 183.07384pt.
+<../img/png/cross_phases.png, id=301, 3365.07187pt x 2028.07687pt>
+File: ../img/png/cross_phases.png Graphic file (type png)
+<use ../img/png/cross_phases.png>
+Package pdftex.def Info: ../img/png/cross_phases.png  used on input line 95.
+(pdftex.def)             Requested size: 398.0pt x 239.86183pt.
+Package cleveref Info: loaded `english' language definitions on input line 99.
+\openout3 = `traffyKING_documentation.mw'.
+
+[4 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und
+ Optimierung/Project/traffyKING/Documentation/img/png/epsilon05.png> <C:/Users/
+Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und Optimierung/
+Project/traffyKING/Documentation/img/png/epsilon09.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 110.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[5 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und
+ Optimierung/Project/traffyKING/Documentation/img/png/cross_phases.png>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 chapter 3.
+<../img/pdf/singleSphere.pdf, id=320, 433.62pt x 289.08pt>
+File: ../img/pdf/singleSphere.pdf Graphic file (type pdf)
+<use ../img/pdf/singleSphere.pdf>
+Package pdftex.def Info: ../img/pdf/singleSphere.pdf  used on input line 118.
+(pdftex.def)             Requested size: 398.0pt x 265.3481pt.
+<../img/pdf/multiSphere.pdf, id=321, 433.62pt x 289.08pt>
+File: ../img/pdf/multiSphere.pdf Graphic file (type pdf)
+<use ../img/pdf/multiSphere.pdf>
+Package pdftex.def Info: ../img/pdf/multiSphere.pdf  used on input line 119.
+(pdftex.def)             Requested size: 398.0pt x 265.3481pt.
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 67.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 150.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[3
+[6
 
-]
+ <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und O
+ptimierung/Project/traffyKING/Documentation/img/pdf/singleSphere.pdf> <C:/Users
+/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und Optimierung
+/Project/traffyKING/Documentation/img/pdf/multiSphere.pdf>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/differential_evolution_varification.png, id=397, 399.4925pt x 279.0
+425pt>
+File: ../img/png/differential_evolution_varification.png Graphic file (type png
+)
+<use ../img/png/differential_evolution_varification.png>
+Package pdftex.def Info: ../img/png/differential_evolution_varification.png  us
+ed on input line 172.
+(pdftex.def)             Requested size: 358.19757pt x 250.21196pt.
+Package cleveref Info: loaded `english' language definitions on input line 176.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[7]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 118.
+Package cleveref Info: loaded `english' language definitions on input line 205.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[4]
+[8 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und
+ Optimierung/Project/traffyKING/Documentation/img/png/differential_evolution_va
+rification.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/nsga2_verification.png, id=431, 390.45876pt x 279.0425pt>
+File: ../img/png/nsga2_verification.png Graphic file (type png)
+<use ../img/png/nsga2_verification.png>
+Package pdftex.def Info: ../img/png/nsga2_verification.png  used on input line 
+209.
+(pdftex.def)             Requested size: 358.19757pt x 255.99837pt.
+Package cleveref Info: loaded `english' language definitions on input line 221.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[9 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und
+ Optimierung/Project/traffyKING/Documentation/img/png/nsga2_verification.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/conjugate_gradient_descent_verification.png, id=456, 393.47pt x 279
+.0425pt>
+File: ../img/png/conjugate_gradient_descent_verification.png Graphic file (type
+ png)
+<use ../img/png/conjugate_gradient_descent_verification.png>
+Package pdftex.def Info: ../img/png/conjugate_gradient_descent_verification.png
+  used on input line 249.
+(pdftex.def)             Requested size: 358.19757pt x 254.027pt.
+Package cleveref Info: loaded `english' language definitions on input line 253.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[10]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-Package cleveref Info: loaded `english' language definitions on input line 150.
+Package cleveref Info: loaded `english' language definitions on input line 294.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[5]
+[11 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/conjugate_gradient_desce
+nt_verification.png>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-Package cleveref Info: loaded `english' language definitions on input line 180.
+<../img/png/hill_climbing_varification.png, id=491, 400.49625pt x 279.0425pt>
+File: ../img/png/hill_climbing_varification.png Graphic file (type png)
+<use ../img/png/hill_climbing_varification.png>
+Package pdftex.def Info: ../img/png/hill_climbing_varification.png  used on inp
+ut line 298.
+(pdftex.def)             Requested size: 358.19757pt x 249.58606pt.
+Package cleveref Info: loaded `english' language definitions on input line 304.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[6]
+[12 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/hill_climbing_varificati
+on.png>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
 \openout3 = `traffyKING_documentation.mw'.
 
-[7
+[13
 
 ]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-chapter 5.
-<../img/png/cross_phases.png, id=270, 3365.07187pt x 2028.07687pt>
-File: ../img/png/cross_phases.png Graphic file (type png)
-<use ../img/png/cross_phases.png>
-Package pdftex.def Info: ../img/png/cross_phases.png  used on input line 193.
-(pdftex.def)             Requested size: 398.0pt x 239.86183pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+<../img/png/simulation_flowchart.png, id=528, 715.92468pt x 1020.06094pt>
+File: ../img/png/simulation_flowchart.png Graphic file (type png)
+<use ../img/png/simulation_flowchart.png>
+Package pdftex.def Info: ../img/png/simulation_flowchart.png  used on input lin
+e 344.
+(pdftex.def)             Requested size: 398.0pt x 567.07442pt.
+Package cleveref Info: loaded `english' language definitions on input line 348.
+
 \openout3 = `traffyKING_documentation.mw'.
 
-[8
-
- <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und O
-ptimierung/Project/traffyKING/Documentation/img/png/cross_phases.png>]
+[14]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-Package cleveref Info: loaded `english' language definitions on input line 208.
+Package cleveref Info: loaded `english' language definitions on input line 351.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[9]
+[15 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/simulation_flowchart.png
+>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+chapter 5.
+<../img/png/nsga2_night_0.png, id=543, 939.51pt x 578.16pt>
+File: ../img/png/nsga2_night_0.png Graphic file (type png)
+<use ../img/png/nsga2_night_0.png>
+Package pdftex.def Info: ../img/png/nsga2_night_0.png  used on input line 384.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+\openout3 = `traffyKING_documentation.mw'.
+
+[16
+
+]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/nsga2_night_14.png, id=548, 939.51pt x 578.16pt>
+File: ../img/png/nsga2_night_14.png Graphic file (type png)
+<use ../img/png/nsga2_night_14.png>
+Package pdftex.def Info: ../img/png/nsga2_night_14.png  used on input line 392.
+
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+Package cleveref Info: loaded `english' language definitions on input line 397.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[17 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/nsga2_night_0.png> <C:/U
+sers/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation und Optimie
+rung/Project/traffyKING/Documentation/img/png/nsga2_night_14.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/nsga2_night_cycl_distr.png, id=556, 400.49625pt x 279.0425pt>
+File: ../img/png/nsga2_night_cycl_distr.png Graphic file (type png)
+<use ../img/png/nsga2_night_cycl_distr.png>
+Package pdftex.def Info: ../img/png/nsga2_night_cycl_distr.png  used on input l
+ine 404.
+(pdftex.def)             Requested size: 398.0pt x 277.31738pt.
+Package cleveref Info: loaded `english' language definitions on input line 437.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[18 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/nsga2_night_cycl_distr.p
+ng>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/nsga2_day_0.png, id=566, 939.51pt x 578.16pt>
+File: ../img/png/nsga2_day_0.png Graphic file (type png)
+<use ../img/png/nsga2_day_0.png>
+Package pdftex.def Info: ../img/png/nsga2_day_0.png  used on input line 442.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+<../img/png/nsga2_day_19.png, id=567, 939.51pt x 578.16pt>
+File: ../img/png/nsga2_day_19.png Graphic file (type png)
+<use ../img/png/nsga2_day_19.png>
+Package pdftex.def Info: ../img/png/nsga2_day_19.png  used on input line 450.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+Package cleveref Info: loaded `english' language definitions on input line 454.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[19 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/nsga2_day_0.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/nsga2_day_cycl_distr.png, id=575, 402.50375pt x 279.0425pt>
+File: ../img/png/nsga2_day_cycl_distr.png Graphic file (type png)
+<use ../img/png/nsga2_day_cycl_distr.png>
+Package pdftex.def Info: ../img/png/nsga2_day_cycl_distr.png  used on input lin
+e 461.
+(pdftex.def)             Requested size: 398.0pt x 275.9208pt.
+Package cleveref Info: loaded `english' language definitions on input line 465.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[20 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/nsga2_day_19.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 501.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[21 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/nsga2_day_cycl_distr.png
+>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 502.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[22]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/hc_night.png, id=592, 939.51pt x 578.16pt>
+File: ../img/png/hc_night.png Graphic file (type png)
+<use ../img/png/hc_night.png>
+Package pdftex.def Info: ../img/png/hc_night.png  used on input line 508.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+Package cleveref Info: loaded `english' language definitions on input line 555.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[23 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/hc_night.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/hc_day.png, id=604, 939.51pt x 578.16pt>
+File: ../img/png/hc_day.png Graphic file (type png)
+<use ../img/png/hc_day.png>
+Package pdftex.def Info: ../img/png/hc_day.png  used on input line 561.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+Package cleveref Info: loaded `english' language definitions on input line 567.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[24 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/hc_day.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 630.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[25]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+<../img/png/cgd_night.png, id=623, 939.51pt x 578.16pt>
+File: ../img/png/cgd_night.png Graphic file (type png)
+<use ../img/png/cgd_night.png>
+Package pdftex.def Info: ../img/png/cgd_night.png  used on input line 635.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+<../img/png/cgd_day.png, id=624, 939.51pt x 578.16pt>
+File: ../img/png/cgd_day.png Graphic file (type png)
+<use ../img/png/cgd_day.png>
+Package pdftex.def Info: ../img/png/cgd_day.png  used on input line 643.
+(pdftex.def)             Requested size: 398.0pt x 244.91635pt.
+Package cleveref Info: loaded `english' language definitions on input line 647.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[26 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/cgd_night.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 648.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[27 <C:/Users/Nicolai/OneDrive/FH Mechatronik/3. Semester/Projekt Simulation un
+d Optimierung/Project/traffyKING/Documentation/img/png/cgd_day.png>]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 710.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[28]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 711.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[29]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 720.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[30]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 chapter 6.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[31
+
+]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+Package cleveref Info: loaded `english' language definitions on input line 786.
+
+\openout3 = `traffyKING_documentation.mw'.
+
+[32]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
+chapter 7.
+\openout3 = `traffyKING_documentation.mw'.
+
+[33
+
+]
+("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
+ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
+\openout3 = `traffyKING_documentation.mw'.
+
 )
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.acr"
@@ -3486,11 +3908,11 @@ ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.acr"
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.gls"
 )
+Package cleveref Info: loaded `english' language definitions on input line 154.
+
 \openout3 = `traffyKING_documentation.mw'.
 
- [10
-
-]
+ [34]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
@@ -3518,7 +3940,7 @@ LaTeX Warning: Empty bibliography on input line 154.
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[11
+[35
 
 ]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
@@ -3527,7 +3949,7 @@ ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 
 \openout3 = `traffyKING_documentation.mw'.
 
-[12
+[36
 
 
 ]
@@ -3553,7 +3975,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-<./literature/projekt2019_task_description.pdf, id=312, 597.55246pt x 845.07718
+<./literature/projekt2019_task_description.pdf, id=697, 597.55246pt x 845.07718
 pt>
 File: ./literature/projekt2019_task_description.pdf Graphic file (type pdf)
 <use ./literature/projekt2019_task_description.pdf>
@@ -3565,7 +3987,7 @@ File: ./literature/projekt2019_task_description.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./literature/projekt2019_task_description.pdf  used on
  input line 5.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<./literature/projekt2019_task_description.pdf, id=315, page=1, 597.55246pt x 8
+<./literature/projekt2019_task_description.pdf, id=700, page=1, 597.55246pt x 8
 45.07718pt>
 File: ./literature/projekt2019_task_description.pdf Graphic file (type pdf)
 <use ./literature/projekt2019_task_description.pdf, page 1>
@@ -3579,7 +4001,7 @@ used on input line 5.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[13
+[37
 
 ]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
@@ -3603,12 +4025,12 @@ used on input line 5.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[14 <./literature/projekt2019_task_description.pdf>]
+[38 <./literature/projekt2019_task_description.pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-<./literature/projekt2019_task_description.pdf, id=355, page=2, 597.55246pt x 8
+<./literature/projekt2019_task_description.pdf, id=742, page=2, 597.55246pt x 8
 45.07718pt>
 File: ./literature/projekt2019_task_description.pdf Graphic file (type pdf)
 <use ./literature/projekt2019_task_description.pdf, page 2>
@@ -3627,13 +4049,13 @@ used on input line 5.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[15 <./literature/projekt2019_task_description.pdf>]
+[39 <./literature/projekt2019_task_description.pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
 chapter B.
-<./literature/Nsga_ii(1).pdf, id=363, 614.295pt x 794.97pt>
+<./literature/Nsga_ii(1).pdf, id=749, 614.295pt x 794.97pt>
 File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf  used on input line 9.
@@ -3642,7 +4064,7 @@ File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf  used on input line 9.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<./literature/Nsga_ii(1).pdf, id=366, page=1, 614.295pt x 794.97pt>
+<./literature/Nsga_ii(1).pdf, id=752, page=1, 614.295pt x 794.97pt>
 File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf, page 1>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page1 used on input line
@@ -3655,7 +4077,7 @@ Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page1 used on input line
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[16
+[40
 
 ]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
@@ -3679,12 +4101,12 @@ Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page1 used on input line
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[17 <./literature/Nsga_ii(1).pdf>]
+[41 <./literature/Nsga_ii(1).pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-<./literature/Nsga_ii(1).pdf, id=413, page=2, 614.295pt x 794.97pt>
+<./literature/Nsga_ii(1).pdf, id=798, page=2, 614.295pt x 794.97pt>
 File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf, page 2>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page2 used on input line
@@ -3702,12 +4124,12 @@ Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page2 used on input line
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[18 <./literature/Nsga_ii(1).pdf>]
+[42 <./literature/Nsga_ii(1).pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-<./literature/Nsga_ii(1).pdf, id=422, page=3, 614.295pt x 794.97pt>
+<./literature/Nsga_ii(1).pdf, id=807, page=3, 614.295pt x 794.97pt>
 File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf, page 3>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page3 used on input line
@@ -3725,12 +4147,12 @@ Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page3 used on input line
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout3 = `traffyKING_documentation.mw'.
 
-[19 <./literature/Nsga_ii(1).pdf>]
+[43 <./literature/Nsga_ii(1).pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
 
-<./literature/Nsga_ii(1).pdf, id=435, page=4, 614.295pt x 794.97pt>
+<./literature/Nsga_ii(1).pdf, id=821, page=4, 614.295pt x 794.97pt>
 File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 <use ./literature/Nsga_ii(1).pdf, page 4>
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page4 used on input line
@@ -3746,10 +4168,10 @@ File: ./literature/Nsga_ii(1).pdf Graphic file (type pdf)
 Package pdftex.def Info: ./literature/Nsga_ii(1).pdf , page4 used on input line
  9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-Package atenddvi Info: Last page = 24.
+Package atenddvi Info: Last page = 50.
 \openout3 = `traffyKING_documentation.mw'.
 
-[20 <./literature/Nsga_ii(1).pdf>]
+[44 <./literature/Nsga_ii(1).pdf>]
 ("C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt Simulation und O
 ptimierung\Project\traffyKING\Documentation\build\traffyKING_documentation.mw")
 \openout3 = `traffyKING_documentation.mw'.
@@ -3776,13 +4198,13 @@ Package logreq Info: Writing requests to 'traffyKING_documentation.run.xml'.
 ### simple group (level 1) entered at line 190 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 97500 strings out of 492450
- 2179183 string characters out of 3119070
- 3090434 words of memory out of 5000000
- 100180 multiletter control sequences out of 15000+200000
- 572638 words of font info for 171 fonts, out of 3000000 for 9000
+ 97914 strings out of 492450
+ 2195149 string characters out of 3119070
+ 3095727 words of memory out of 5000000
+ 100378 multiletter control sequences out of 15000+200000
+ 572803 words of font info for 184 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 89i,20n,121p,10134b,32524s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 89i,20n,123p,10134b,32572s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
 vips/cm-super/cm-super-t1.enc}{C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2
 .9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/Nicolai/AppData/Local/Pr
@@ -3818,26 +4240,25 @@ lai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi0800.pfb>
 /sfbi1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/cm-super/sfbx0800.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/Nicolai/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/Nicolai/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users
-/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2488
+ams/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/Nicolai/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Users
+/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1095
 .pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfcc1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfcc1440.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/Nicolai/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Nicolai/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1095.pfb><C:/
+super/sfcc1440.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sfrm0800.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Nicolai/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/Nicolai/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sfti1095.pfb><C:/
 Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/cm-super/sft
-i1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sftt1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/cm-super/sfxc1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/cm-super/sfxc2488.pfb>
+t1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfxc1095.pfb><C:/Users/Nicolai/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/cm-super/sfxc2488.pfb>
 Output written on "C:\Users\Nicolai\OneDrive\FH Mechatronik\3. Semester\Projekt
  Simulation und Optimierung\Project\traffyKING\Documentation\build\traffyKING_d
-ocumentation.pdf" (24 pages, 1080766 bytes).
+ocumentation.pdf" (50 pages, 5121721 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
- 143 named destinations out of 1000 (max. 500000)
- 36175 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 849 compressed objects within 9 object streams
+ 253 named destinations out of 1000 (max. 500000)
+ 35832 words of extra memory for PDF output out of 42996 (max. 10000000)
 
