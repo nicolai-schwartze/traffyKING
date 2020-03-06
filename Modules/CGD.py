@@ -8,7 +8,7 @@ Created on Mon Oct 21 21:04:26 2019
 import numpy as np
 import copy
 import pickle
-
+import matplotlib.pyplot as plt
 
 def ConjugateGradientDescent(x, function, epsilon=10**(-3), alpha=0.1, eta=10, h=np.finfo(np.float64).eps): 
     
@@ -104,4 +104,9 @@ if __name__ == "__main__":
     print(numGrad(sphere, np.array([1,1])))
     print(lineSearch(np.array([1, 1]), np.array([-1, -1]), 5, 10**-3, sphere))
     opt, fD = ConjugateGradientDescent(np.array([10, -10]), sphere)
+    plt.title("conjugate gradient descent on sphere function")
+    plt.plot(fD)
+    plt.xlabel("iteration")
+    plt.ylabel("function value")
+    
     print(opt)

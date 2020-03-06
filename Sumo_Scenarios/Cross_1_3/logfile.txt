@@ -1,19 +1,19 @@
-***Starting server on port 8730 ***
-Loading net-file from 'Data/Cross_1_3.net.xml'... done (10ms).
-Loading additional-files from 'Data/rerouter.xml'... done (23ms).
-Loading additional-files from 'Data/trafficLight.add.xml'... done (1ms).
+***Starting server on port 13071 ***
+Loading net-file from 'Data/Cross_1_3.net.xml'... done (11ms).
+Loading additional-files from 'Data/rerouter.xml'... done (27ms).
+Loading additional-files from 'Data/trafficLight.add.xml'... done (2ms).
 Loading done.
 Simulation version 1.3.1 started with time: 0.00
 Simulation ended at time: 3600.00
 Reason: TraCI requested termination.
 Performance: 
- Duration: 35661ms
- Real time factor: 100.951
- UPS: 497.181795
+ Duration: 35463ms
+ Real time factor: 101.514
+ UPS: 415.390689
 Vehicles: 
- Inserted: 189
- Running: 4
+ Inserted: 157
+ Running: 5
  Waiting: 0
 
-DijkstraRouter answered 310 queries and explored 6.78 edges on average.
-DijkstraRouter spent 4ms answering queries (0.01ms on average).
+DijkstraRouter answered 255 queries and explored 6.73 edges on average.
+DijkstraRouter spent 2ms answering queries (0.01ms on average).

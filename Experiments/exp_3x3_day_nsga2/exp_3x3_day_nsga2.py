@@ -13,10 +13,10 @@ from __future__ import print_function
 import sys
 import pickle
 
-sys.path.append('../../Modules')
-import NSGA2
-
-import Cross_3_3_day as c33
+#sys.path.append('../../Modules')
+#import NSGA2
+#
+#import Cross_3_3_day as c33
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ Created on Tue Nov  5 09:13:12 2019
 import numpy as np
 import copy
 import pickle
+import matplotlib.pyplot as plt
 
 def hillClimbing(x, function, stepSize=1, functionEvaluation=10**5):
     dim = x.shape[-1]
@@ -65,8 +66,13 @@ if __name__ == "__main__":
         return np.dot(x,x)
     
     print("start test")
-    opt, fD = hillClimbing(np.array([34.23,-23.5,104.65,-1059,670.1,-340.3]), sphere)
+    opt, fD = hillClimbing(np.array([34.23,-23.5]), sphere, functionEvaluation=500)
     print(opt)
     print(fD)
+    
+    plt.title("hill climbing on sphere function")
+    plt.semilogy(fD)
+    plt.xlabel("iteration")
+    plt.ylabel("function value")
     
     print("passed test")

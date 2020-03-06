@@ -8,6 +8,7 @@ Created on Thu Apr 11 10:30:04 2019
 import numpy as np
 import copy
 import pickle
+import matplotlib.pyplot as plt
 
 
 def crossoverBIN(xi, vi, CR):
@@ -73,7 +74,13 @@ if __name__ == "__main__":
     
     testPopulation = np.random.rand(20,2)*np.random.randint(-1000, 1000)
     
-    opt, fD = DifferentialEvolution(testPopulation, sphere)
+    opt, fD = DifferentialEvolution(testPopulation, sphere, maxFunctionEval=1000)
+    
+    plt.title("differential evolution on sphere function")
+    plt.semilogy(fD)
+    plt.xlabel("iteration")
+    plt.ylabel("function value")
+    
     print(opt)
 
 

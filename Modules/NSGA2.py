@@ -316,7 +316,14 @@ if __name__ == "__main__":
     p1, p2 = tournamentSelection(Pt)
     
     testPopulation = populationInitialisationNSGA2(multiSphere, 100, [-10, -10], [10, 10])
-    OP, FP = NSGA2(testPopulation, multiSphere, maxGeneration=5)
+    OP, FP = NSGA2(testPopulation, multiSphere, maxGeneration=10)
+    
+    fig = plt.figure()
+    
+    plt.title('NSGA-II on multisphere after Gen 10')
+    plt.xlabel('F1')
+    plt.ylabel('F2')
+    
     for i in range(len(OP)):
         if OP[i].rank == 0:
             plt.plot(OP[i].fList[0], \

@@ -51,12 +51,15 @@ def evaluate_Simulation_Multicriteria(tripinfoFile):
 
 
 
-def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, weightF=5):
+def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=1, weightSC=1, weightF=1):
     ''' 
     input  : tripinfo file as created by a sumo simulation 
     
     output : a weighted sum of the criteria waitingtime, stopcount and fairness
-             calculated by (waitingtime + stopcount + fairness)/3
+             calculated by: 
+             (weightWT*waitingtime + weightSC*stopcount + weightF*fairness)
+             ---------------------------------------------------------------
+             (weightWT + weightSC + weightF)
              the parameters are normalised by the routlenght of each car
              this is necessary since a longer route causes more stops and
              thus a longer waiting time
@@ -83,9 +86,8 @@ def evaluate_Simulation_Singlecriteria(tripinfoFile, weightWT=5, weightSC=1, wei
     waitingtime = np.mean(waitingtimeList)
     fairness = np.var(waitingtimeList)
     
-    return list([(waitingtime*weightWT + stopCount*weightSC + fairness*weightF)/3])
-
-
+    return list([(waitingtime*weightWT + stopCount*weightSC + fairness*weightF)/(weightWT + weightSC + weightF)])
+   
 def simulation_Runner(simulationSteps):
     n = 0
     while(n < simulationSteps):
@@ -147,24 +149,23 @@ def calculateRelativeGreenFromFile(fileName, numberOfCrosses):
     
 
 if __name__ == "__main__": 
-    rG = calculateRelativeGreenFromFile("C:\\Users\\Admin\\Downloads\\Cross3x3LP.csv", 9)
+    
+    print("start test")
+    print(50*"=")
+    
+    wT, sC, F = evaluate_Simulation_Multicriteria("test_Tripinfo2.xml")
+    print("waitingtime = " + str(wT))
+    print("number of stops = " + str(sC))
+    print("fairness = " + str(F))
+    
+    result = evaluate_Simulation_Singlecriteria("test_Tripinfo.xml")
+    print("weighted result = " + str(result))
+    
+    rG = calculateRelativeGreenFromFile("Cross3x3LP.csv", 9)
     print(rG)
     
-    # print("start test")
-    # print(50*"=")
+    print("test passed")
     
-    # wT_List = [0, 2, 1, 4, 0, 2, 4, 4] 
-    # sC_List = [0, 1, 1, 2, 0, 2, 2, 3]
-    # wT, sC, F = evaluate_Simulation_Multicriteria("test_Tripinfo.xml")
-    # print("waitingtime = " + str(wT))
-    # print("number of stops = " + str(sC))
-    # print("fairness = " + str(F))
-    # assert (np.mean(wT_List) == wT) 
-    # assert (np.var(wT_List) == F)
-    # assert (np.sum(sC_List) == sC)
-    # result = evaluate_Simulation_Singlecriteria("test_Tripinfo.xml")
-    # print("weighted result = " + str(result))
-    # assert (result == (np.mean(wT_List)*5 + np.var(wT_List)*5 + np.sum(sC_List))/3)
-    # print("test passed")
+    
     
     

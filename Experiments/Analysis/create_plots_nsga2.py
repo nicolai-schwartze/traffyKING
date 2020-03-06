@@ -17,31 +17,7 @@ if __name__ == "__main__":
     from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
     import matplotlib.pyplot as plt
     populations = []
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g0.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g1.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g2.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g3_g6.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g7.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_night_nsga2/data_backup/NSGA2_SaveList_g8_g14.pkl', 'rb') as pickle_file:
-        backup = pickle.load(pickle_file)
-    for i in range(len(backup)):
-        populations.append(copy.deepcopy(backup[i][0]))
-    with open('../exp_3x3_day_nsga2/data_backup/NSGA2_SaveList_g15.pkl', 'rb') as pickle_file:
+    with open('../exp_3x3_day_nsga2/data_backup/NSGA2_SaveList_g19_g20.pkl', 'rb') as pickle_file:
         backup = pickle.load(pickle_file)
     for i in range(len(backup)):
         populations.append(copy.deepcopy(backup[i][0]))
@@ -64,7 +40,7 @@ if __name__ == "__main__":
         ax.set_ylabel('Stopcount')
         ax.set_zlabel('Fairness')
         ax.set_title("Generation " + str(i))
-        plt.savefig("exp_3x3_night_nsga2/nsga2_night_" + str(i) + ".png")
+        # plt.savefig("exp_3x3_night_nsga2/nsga2_night_" + str(i) + ".png")
         plt.show()
 
 

@@ -143,9 +143,9 @@
 			\State \ \ \ \ \ \ \ \ $q_{1},q_{2}$ = crossover($p_{1},p_{2}$)
 			\State \ \ \ \ \ \ \ \ $q_{1}$ = mutations($q_{1}$)
 			\State \ \ \ \ \ \ \ \ $q_{2}$ = mutations($q_{2}$)
-			\State \ \ \ \ \ \ \ \ $Q_{t}$ = $Q_{t} \cap (q_{1},q_{2})$
+			\State \ \ \ \ \ \ \ \ $Q_{t}$ = $Q_{t} \cup (q_{1},q_{2})$
 			\State \ \ \ \ \textbf{end}
-			\State \ \ \ \ $R_{t} = R_{t} \cap (Q_{t})$
+			\State \ \ \ \ $R_{t} = R_{t} \cup (Q_{t})$
 			\State \ \ \ \ $R_{t}$ = fast\textunderscore non \textunderscore dominated \textunderscore sort($R_{t}$)
 			\State \ \ \ \ $P_{t}$ = crowding\textunderscore distance \textunderscore sorting($R_{t},P_{t}.size$)
 			\State \ \ \ \ g = g + 1
